@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Cove">
-      <ExcludeAssets></ExcludeAssets>
-      <CopyLocalSatelliteAssemblies>False</CopyLocalSatelliteAssemblies>
-    </Reference>
+    <ProjectReference Include="..\WebFishingCove-main\Cove\Cove.csproj" />
   </ItemGroup>
-
 </Project>
